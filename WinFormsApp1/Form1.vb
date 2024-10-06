@@ -1,4 +1,5 @@
 ﻿Imports System.Security.Cryptography
+Imports System.Text
 Imports System.IO
 
 Public Class Form1
@@ -124,7 +125,11 @@ Public Class CRC32
 
     Protected Overrides Function HashFinal() As Byte()
         crcValue = Not crcValue
-        Return BitConverter.GetBytes(crcValue)
+        Dim result As Byte() = BitConverter.GetBytes(crcValue)
+        If BitConverter.IsLittleEndian Then
+            Array.Reverse(result)
+        End If
+        Return result
     End Function
 
     Public Overrides ReadOnly Property HashSize As Integer

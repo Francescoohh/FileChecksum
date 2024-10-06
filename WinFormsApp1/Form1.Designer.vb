@@ -60,17 +60,17 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 14.0F)
-        Label1.Location = New Point(3, 1)
+        Label1.Font = New Font("Segoe UI", 14F)
+        Label1.Location = New Point(133, 9)
         Label1.Name = "Label1"
-        Label1.Size = New Size(331, 25)
+        Label1.Size = New Size(371, 25)
         Label1.TabIndex = 0
-        Label1.Text = "File Checksum MD5, SHA-256, CRC-32"
+        Label1.Text = "File Checksum Tool MD5, SHA-256, CRC-32"
         ' 
         ' TextBox1
         ' 
-        TextBox1.Font = New Font("Segoe UI", 12.0F)
-        TextBox1.Location = New Point(84, 133)
+        TextBox1.Font = New Font("Segoe UI", 12F)
+        TextBox1.Location = New Point(85, 129)
         TextBox1.Name = "TextBox1"
         TextBox1.ReadOnly = True
         TextBox1.Size = New Size(567, 29)
@@ -79,8 +79,8 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 13.0F)
-        Label2.Location = New Point(5, 108)
+        Label2.Font = New Font("Segoe UI", 13F)
+        Label2.Location = New Point(5, 101)
         Label2.Name = "Label2"
         Label2.Size = New Size(141, 25)
         Label2.TabIndex = 2
@@ -92,7 +92,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(189, 107)
+        Button1.Location = New Point(189, 104)
         Button1.Name = "Button1"
         Button1.Size = New Size(113, 23)
         Button1.TabIndex = 3
@@ -102,7 +102,7 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 13.0F)
+        Label3.Font = New Font("Segoe UI", 13F)
         Label3.Location = New Point(5, 161)
         Label3.Name = "Label3"
         Label3.Size = New Size(174, 25)
@@ -112,7 +112,7 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 13.0F)
+        Label4.Font = New Font("Segoe UI", 13F)
         Label4.Location = New Point(5, 217)
         Label4.Name = "Label4"
         Label4.Size = New Size(162, 25)
@@ -121,7 +121,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(189, 164)
+        Button2.Location = New Point(189, 163)
         Button2.Name = "Button2"
         Button2.Size = New Size(113, 23)
         Button2.TabIndex = 6
@@ -139,7 +139,7 @@ Partial Class Form1
         ' 
         ' TextBox3
         ' 
-        TextBox3.Font = New Font("Segoe UI", 12.0F)
+        TextBox3.Font = New Font("Segoe UI", 12F)
         TextBox3.Location = New Point(84, 189)
         TextBox3.Name = "TextBox3"
         TextBox3.ReadOnly = True
@@ -148,7 +148,7 @@ Partial Class Form1
         ' 
         ' TextBox5
         ' 
-        TextBox5.Font = New Font("Segoe UI", 12.0F)
+        TextBox5.Font = New Font("Segoe UI", 12F)
         TextBox5.Location = New Point(85, 242)
         TextBox5.Name = "TextBox5"
         TextBox5.ReadOnly = True
@@ -165,7 +165,7 @@ Partial Class Form1
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 13.0F)
+        Label5.Font = New Font("Segoe UI", 13F)
         Label5.Location = New Point(5, 286)
         Label5.Name = "Label5"
         Label5.Size = New Size(210, 25)
@@ -192,9 +192,9 @@ Partial Class Form1
         ' 
         ' Button6
         ' 
-        Button6.Location = New Point(556, 55)
+        Button6.Location = New Point(549, 55)
         Button6.Name = "Button6"
-        Button6.Size = New Size(96, 23)
+        Button6.Size = New Size(103, 23)
         Button6.TabIndex = 18
         Button6.Text = "Seleziona il file"
         Button6.UseVisualStyleBackColor = True
@@ -202,7 +202,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI", 13.0F)
+        Label6.Font = New Font("Segoe UI", 13F)
         Label6.Location = New Point(5, 336)
         Label6.Name = "Label6"
         Label6.Size = New Size(143, 25)
@@ -212,7 +212,7 @@ Partial Class Form1
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 13.0F)
+        Label7.Font = New Font("Segoe UI", 13F)
         Label7.Location = New Point(5, 242)
         Label7.Name = "Label7"
         Label7.Size = New Size(73, 25)
@@ -222,8 +222,8 @@ Partial Class Form1
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI", 13.0F)
-        Label8.Location = New Point(5, 133)
+        Label8.Font = New Font("Segoe UI", 13F)
+        Label8.Location = New Point(6, 131)
         Label8.Name = "Label8"
         Label8.Size = New Size(73, 25)
         Label8.TabIndex = 21
@@ -232,7 +232,7 @@ Partial Class Form1
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI", 13.0F)
+        Label9.Font = New Font("Segoe UI", 13F)
         Label9.Location = New Point(5, 189)
         Label9.Name = "Label9"
         Label9.Size = New Size(73, 25)
@@ -258,7 +258,7 @@ Partial Class Form1
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI", 13.0F)
+        Label10.Font = New Font("Segoe UI", 13F)
         Label10.Location = New Point(28, 311)
         Label10.Name = "Label10"
         Label10.Size = New Size(120, 25)
@@ -277,8 +277,8 @@ Partial Class Form1
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI", 11.0F)
-        Label11.Location = New Point(12, 32)
+        Label11.Font = New Font("Segoe UI", 11F)
+        Label11.Location = New Point(6, 31)
         Label11.Name = "Label11"
         Label11.Size = New Size(115, 20)
         Label11.TabIndex = 28
@@ -290,8 +290,8 @@ Partial Class Form1
         ' 
         ' TextBox4
         ' 
-        TextBox4.Font = New Font("Segoe UI", 10.0F)
-        TextBox4.Location = New Point(12, 55)
+        TextBox4.Font = New Font("Segoe UI", 10F)
+        TextBox4.Location = New Point(5, 54)
         TextBox4.Name = "TextBox4"
         TextBox4.ReadOnly = True
         TextBox4.Size = New Size(538, 25)
@@ -300,7 +300,7 @@ Partial Class Form1
         ' Label12
         ' 
         Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 13.0F)
+        Label12.Font = New Font("Segoe UI", 13F)
         Label12.Location = New Point(63, 363)
         Label12.Name = "Label12"
         Label12.Size = New Size(85, 25)
@@ -309,7 +309,7 @@ Partial Class Form1
         ' 
         ' TextBox6
         ' 
-        TextBox6.Font = New Font("Segoe UI", 11.0F)
+        TextBox6.Font = New Font("Segoe UI", 11F)
         TextBox6.Location = New Point(149, 364)
         TextBox6.Name = "TextBox6"
         TextBox6.ReadOnly = True
@@ -355,12 +355,12 @@ Partial Class Form1
         Controls.Add(TextBox1)
         Controls.Add(Label1)
         DoubleBuffered = True
-        Font = New Font("Segoe UI", 9.0F)
+        Font = New Font("Segoe UI", 9F)
         FormBorderStyle = FormBorderStyle.Fixed3D
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "Form1"
-        Text = "File Checksum 1.0 by Alph4_XX"
+        Text = "File Checksum Tool v1.0.0.1 by Francescoohh"
         CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

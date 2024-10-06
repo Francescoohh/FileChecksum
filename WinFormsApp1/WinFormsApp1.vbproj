@@ -8,11 +8,11 @@
     <MyType>WindowsForms</MyType>
     <AssemblyName>File Checksum Tool</AssemblyName>
     <Description>File Checksum Tool &amp; Comparatore di stringhe</Description>
-    <Copyright>Alph4_XX</Copyright>
+    <Copyright>Francescoohh</Copyright>
     <NeutralLanguage>it</NeutralLanguage>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Title>File Checksum Tool</Title>
-    <Authors>Alph4_XX</Authors>
+    <Authors>Francescoohh</Authors>
     <PackageIcon></PackageIcon>
     <ApplicationIcon>image.ico</ApplicationIcon>
   </PropertyGroup>

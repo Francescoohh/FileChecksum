@@ -3,9 +3,4 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Users\Francesco\source\repos\WinFormsApp1\WinFormsApp1\My Project\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
 </Project>
